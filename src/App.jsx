@@ -9,14 +9,12 @@ import Shop from './pages/Shop'
 export default function App() {
   return (
     // Use BrowserRouter as Root, to comply with JSX needing a single parent
-    <BrowserRouter>
-      <body>
+    <BrowserRouter>  
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
           </Routes>
-      </body>
     </BrowserRouter>
   );
 }

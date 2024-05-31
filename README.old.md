@@ -1,2 +1,0 @@
-# QAM2_Practice
- 
