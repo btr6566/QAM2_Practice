@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // import '../style.css'
 // import '../styles/Navbar.css'
-import styles from './Navbar.module.css'
+import styles from './styles/Navbar.module.css'
 
 export default function Navbar() {
 
