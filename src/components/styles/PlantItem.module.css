@@ -1,0 +1,40 @@
+.plantCard {
+    /* width: 300px; */
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.74);
+    box-shadow: 5px 5px 5px rgb(165, 165, 165);
+    margin: 3px;
+}
+
+.itemName {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    color: #54744D;  
+}
+
+.price {
+    color: #54744D;  
+}
+
+.cartButton {
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #54744D;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 36px;
+    text-decoration: none;
+}
+
+.cartButton:hover {
+    background-color: #bcf7b4;
+}
+
+/* .cartButton:active {
+    position: relative;
+    top: 1px;
+} */

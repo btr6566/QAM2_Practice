@@ -15,8 +15,10 @@ export default function Shop() {
   // console.log(shopList);
 
   return (
-    <div className={styles.container}>
-      {shopList}
+    <div>
+      <div className={styles.shopContainer}>
+        {shopList}
+      </div>  
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -24,7 +26,7 @@ export default function Shop() {
         egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
         leo.
       </p>
-    </div>  
+    </div>
   );
 
 }
