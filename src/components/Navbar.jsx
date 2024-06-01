@@ -15,6 +15,9 @@ export default function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li className={styles.navlink}>
+            <Link to="/about">About</Link>
+          </li>
+          <li className={styles.navlink}>
             <Link to="/shop">Shop</Link>
           </li>
         </ul>
