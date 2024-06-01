@@ -1,5 +1,13 @@
+.body {
+    align-content: center;
+}
+
 .shopContainer {
-    display: flex;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; /* Adjust the gap between items if needed */
+    
     align-items: center;
     /* border: 1px solid #ccc; */
     padding: 20px;

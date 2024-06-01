@@ -15,7 +15,8 @@ export default function Shop() {
   // console.log(shopList);
 
   return (
-    <div>
+    <div className={styles.body}>
+      <h2>Our Plants:</h2>
       <div className={styles.shopContainer}>
         {shopList}
       </div>  
