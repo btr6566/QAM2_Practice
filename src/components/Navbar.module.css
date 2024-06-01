@@ -1,4 +1,4 @@
-nav {
+.nav {
     flex-direction: row;
     justify-content: center;
     /* gap: 1rem; */
@@ -6,7 +6,7 @@ nav {
     ;
 }
 
-#siteHeaderText {
+.siteHeaderText {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
@@ -17,7 +17,7 @@ nav {
 
 }
 
-#navLinks {
+.navLinks {
     font-family: 'Poppins';
     display: flex;
     align-items: center;
@@ -30,12 +30,14 @@ nav {
     list-style: none;
 }
 
+
+.navlink:hover {
+    text-decoration: underline;
+}
+
+
 a {
     font-family: inherit;
     color: #54744d;
     text-decoration: none;
-}
-
-.navlink:hover {
-    text-decoration: underline;
 }
