@@ -6,3 +6,49 @@
     max-width: 800px;
     /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
 }
+
+.textContent {
+    margin-right: 20px;
+}
+
+.imageContent {
+    border-radius: 4px;
+}
+
+.subhead {
+    color: #54744D;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.p1text {
+    color: #54744D;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+/* https://www.bestcssbuttongenerator.com/#/4 */
+.button {
+    background-color: #54744d;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    box-shadow: 10px;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+    background-color: #72b352;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}

@@ -9,7 +9,7 @@
 .siteHeaderText {
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 32px;
+    font-size: 38px;
     text-align: center;
     color: white;
     background-color: #54744d;
@@ -28,6 +28,7 @@
     margin: 0;
     padding: 0.5rem 0;
     list-style: none;
+    box-shadow: 5px 5px 5px #dadada  ;
 }
 
 
